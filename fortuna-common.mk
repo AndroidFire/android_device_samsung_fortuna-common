@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
 
 # TWRP
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
+    $(LOCAL_PATH)/recovery/recovery.fstab:recovery/root/etc/recovery.fstab
 
 # Input device calibration files
 PRODUCT_COPY_FILES += \
